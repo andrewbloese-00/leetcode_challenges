@@ -5,11 +5,12 @@ const sleep = ms => new Promise((resolve)=>{
 	},ms)
 }) 
 
-const SLEEP_DURATION = 1000
 
-async function main(){
+//local testing fn
+const SLEEP_DURATION = 1000;
+async function test(){
 	
 	const sleepTime = await sleep(SLEEP_DURATION);
 	console.log("Passed: ", sleepTime === SLEEP_DURATION);
 }
-main();
+test();

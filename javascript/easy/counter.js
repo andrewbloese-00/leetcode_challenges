@@ -10,12 +10,17 @@ function createCounter(n){
 
 
 }
-//test counter correctness with n=10 [10 , 11 , 12] 
+//test counter correctness with n=0 
+const IS_TRUE = v=>v===true
 function test(){
-	let counter = createCounter(10)
-	console.log(counter() === 10)
-	console.log(counter() === 11)
-	console.log(counter() === 12)
+	let counter = createCounter(0)
+	const results = []
+	for(let i = 10; i <= 100; i++){
+		results.push(
+			counter() == i 
+		)
+	}
+	console.log("Count Test Passed: ", results.every(IS_TRUE));
 }
 
 test();
