@@ -14,9 +14,6 @@ function specialInteger(arr){
     //in case target is the last integer in the array
     if(count > target) return num; 
 }
-
-
-
 // | Leetcode Stats 
 // |    Runtime     |   Memory      |
 // |    56ms        |   42.54       |
