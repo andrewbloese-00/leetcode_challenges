@@ -1,4 +1,5 @@
 
+
 //checks if s is a 'subsequence' of t
 function isSubsequence(s,t){
 	//empty string is a subsequence of all
@@ -14,6 +15,5 @@ function isSubsequence(s,t){
 }
 
 //leetcode performance
-// 67ms		| 41.9mb
-// 9.64%	| 62.55%
-
+// 50ms 	| 40.8mb
+// 74.67%	| 99.45%
