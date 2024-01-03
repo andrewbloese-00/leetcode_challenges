@@ -1,7 +1,7 @@
 function maxProfit(prices){
 	let buy = 0, sell = 1, maxProfit = 0, currentProfit = 0;
 	while(buy < prices.length){
-		currentProfit = prices[sell] - prices[buy];
+		currentProfit = prices[sell] - prices[buy]; //calculate then compare profit to max
 		if(prices[buy] < prices[sell]){
 			if(currentProfit > maxProfit) maxProfit = currentProfit;
 		} else {
