@@ -1,5 +1,4 @@
-const VOWELS = "aeiou";
-const isVowel = char => VOWELS.includes(char)
+const isVowel = (char) => char === "a" || char === "e" || char === "i" || char === "o" || char === "u";
 
 
 
@@ -23,5 +22,5 @@ function maxVowels(s,k){
 }
 
 //Leetcode Results
-// 79ms 	|	45.88mb
-// 68.28%	|	41.94%
+// 69ms 	|	44.80mb
+// 92.29%	|	92%
